@@ -1,13 +1,11 @@
-import React from 'react'
-// import {Link} from 'react-router-dom';
+import React, { Fragment } from 'react'
+import Movies from '../Movies/Movies'
 
 const Landing = () => {
     return (
-    <section>
-        !!!
-
-    </section>
-    )
+        <Fragment>
+            <Movies />
+        </Fragment>)
 }
 
 export default Landing
